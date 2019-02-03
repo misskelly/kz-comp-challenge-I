@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Static Comp I</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Monofett|Raleway:400,600,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="header_nav nav">
       <ul class="nav">
         <li class="home">
           <a href="#" class="menu">
@@ -32,19 +33,26 @@
         </li>
       </ul>
     </nav>
-    <section>
+    <section class="header-right">
       <article class="user">
-        <i class="fas fa-user-astronaut icon"></i>
-        <a href="Log In" class="login">Log In</a>
-        <i class="fas fa-chevron-circle-down icon"></i>
+        <a href="Log In" class="login">
+          <i class="far fa-user-circle"></i>Log In
+        </a>
+        <a>
+          <i class="fas fa-caret-down icon"></i>
+        </a>
       </article>
       <article class="logo">
-        <a href="">
-          <h1>
+        <a href="#" class="logo-a">
+          <img src="images/science.png" class="logo-img" alt="Atom icon for science logo">
+          <div class="logo-text">
+            <h1 class="logo-heading">
             Science
-          </h1>
-          <img src="images/science.png" class="logo">
-          <h2>It's like magic but real</h2>
+            </h1>
+            <h2 class="logo-subheading">  It's like magic <span class="but-real">
+              but real
+            </span></h2>
+          </div>
         </a>
       </article>
     </section>
