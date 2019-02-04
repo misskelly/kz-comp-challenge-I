@@ -82,9 +82,9 @@ p {
   height: 75px;
 }
 
-.logo-text {
+/*.logo-text {
   width: 60%;
-}
+}*/
 
 .logo-subheading {
   font-family: 'Major Mono Display', monospace;
@@ -123,7 +123,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 30px;
+  padding: 15px;
   width: 100%;
 }
 
@@ -132,11 +132,10 @@ h3 {
   border-radius: 5px;
   border: 1px solid #293241;
   box-shadow:  0px 0px 5px #E0FBFC, ix 0px 3px #ED7F63;
-  margin-bottom: 1rem;
-  margin: 15px;
+  margin: 5px 5px 15px 5px;
   min-width: 250px;
   position: relative;
-  width: 23%;
+  width: 24%;
 }
 
 
