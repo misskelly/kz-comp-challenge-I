@@ -16,7 +16,7 @@ body {
 ul,
 li {
   color: inherit;
-  display: inline-block;
+  /*display: inline-block;*/
   list-style-type: none;
   padding: 0 0 0 10px;
 }
@@ -40,7 +40,8 @@ p {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #B4B8AB;
+  background-color: #9FAEB9;
+  color: #000F08;
   border-bottom: 10px solid #FF4949;
 }
 
@@ -48,28 +49,41 @@ p {
   align-self: flex-end;
 }
 
+.nav-item {
+  display: inline-block;
+}
+
 .menu {
   margin-right: 20px;
 }
 
+.nav-text {
+  display: inline;
+}
 .header-right {
-  width: 32%;
+  width: 25%;
   text-align: right;
 }
 
 .icon {
   margin: 5px;
 }
+.user {
+  font-size: 14px;
+  width: 100%;
+  padding: 20px 30px 20px 0;
+}
 
 .logo {
   width: 100%;
-  display: inline;
 }
 
 .logo-a {
+  height: 100px;
   display: flex;
-  justify-content: flex-end;
-  margin: 0 40px 20px 0;
+  justify-content: center;
+  margin: 0 40px 10px 0;
+  color: #000F08;
 }
 
 .logo-heading {
@@ -79,33 +93,34 @@ p {
   margin: 0 0 0 10px
 }
 
-.logo-img {
-  width: 75px;
-  height: 75px;
+
+.atom {
+  font-family: 'science_iconsregular';
+  font-size: 120px;
+  line-height: .9;
+  text-shadow:2px 1px 0 #FF4949;
 }
 
-/*.logo-text {
-  width: 60%;
-}*/
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .logo-subheading {
   font-family: 'Major Mono Display', monospace;
   font-size: 14px;
   margin: 0 0 0 10px;
+  border-top: 2px dotted #5A0914;
 }
 
 .but-real {
   display: block;
   font-size: 18px;
   letter-spacing: 5px;
+  text-shadow:2px 1px 0 #FF4949;
 }
 
-.user {
-  font-size: 14px;
-  width: 100%;
-  padding: 20px 30px 20px 0;
-/*  text-align: right;
-*/}
 
 .card,
 .nav-item {
@@ -120,14 +135,16 @@ p {
   -webkit-transform: scale(1.15);
   -ms-transform: scale(1.15);
   transform: scale(1.15);
+  color: #5A0914;
+  
 } 
 
 .login:hover,
 .nav-item:hover {
-  color: #5A0914;
   font-weight: bold;
-/*  background-color: #F71735;
-*/  border-radius: 10px;
+  border-radius: 10px;
+  background-color: #284B63;
+  box-shadow: 0 0 20px 20px #284B63;
 }
 
 /*/////MAIN/////*/
@@ -149,7 +166,6 @@ h3 {
 .sci {
   background-color: #FF4949;
   font-weight: bold;
-  /*margin: 2px;*/
 }
 
 .gallery {
@@ -162,10 +178,11 @@ h3 {
 }
 
 .card {
-  background-color: #EDFDFB;
+  background-color: #D7DEE2;
+  color: #000F08;
   border-radius: 5px;
   border: 1px solid #44070F;
-  box-shadow:  5px 4px 4px #284B63;
+  box-shadow:  3px 2px 2px #284B63;
   margin: 5px 5px 15px 5px;
   min-width: 250px;
   position: relative;
@@ -176,6 +193,7 @@ h3 {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+  box-shadow:5px 5px 5px #284B63;
 }
 
 
@@ -254,4 +272,72 @@ h4 {
 
 
 
-/*/////FOOTER/////*/
+/*/////MEDIA QUERIES/////*/
+
+@media only screen and (min-width:850px) and (max-width:1100px) {
+    .card {
+      width: 30%;
+      margin: 10px 5px 30px 5px;
+    }
+
+    .logo {
+      padding-right: 30px;
+    }
+
+  }
+
+@media only screen and (min-width:571px) and (max-width:850px) {
+    
+    h3{
+      font-size: 32px;
+    }
+
+    .card {
+      width: 40%;
+      margin: 10px 5px 30px 5px;
+    }
+
+    .logo {
+      width: 30%;
+    }
+
+    .nav-item {
+      display: block;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .card {
+      width: 75%;
+      margin: 10px 5px 30px 5px;
+    }    
+    h3{
+      font-size: 28px;
+      width: 100%;
+      padding: 40px 30px 0 30px;
+
+      /*text-align: center;*/
+    }
+    .sci {
+      display: block;
+      margin: 0;
+    }
+
+    .header-right {
+      width: 60%;
+    }
+
+    .logo-a {
+      padding-right: 60px;
+    }
+    .nav {
+      align-self: flex-start;
+    }
+    .nav-text {
+      display: none;
+    }
+    .menu {
+      margin: 0;
+    }
+}
+
