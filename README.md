@@ -20,9 +20,14 @@ Turing School of Software and Design Mod 1 Project
 # Screen Grab of Static Comp Provided
 
 
+![Comp] 
+(https://misskelly.github.com/kz-comp-challenge-I/images/comp.jpg)
+
+
 
 # Screen Grab of the Site Created
-
+![Comp] 
+(https://misskelly.github.com/kz-comp-challenge-I/images/laptop.png)
 
 
 
@@ -30,4 +35,3 @@ Turing School of Software and Design Mod 1 Project
 
 https://www.buzzfeed.com/elfyscott/studies-that-were-published-in-2018
 
--=-=-= Joshua Lavarine & Kelly Zick =-=-=-
