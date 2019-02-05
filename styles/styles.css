@@ -10,6 +10,7 @@
 body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
+  color: #000F08;
 }
 
 ul,
@@ -39,7 +40,8 @@ p {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: #D1D1D1;
+  border-bottom: 7px solid #F71735;
 }
 
 .nav {
@@ -67,7 +69,7 @@ p {
 .logo-a {
   display: flex;
   justify-content: flex-end;
-  padding: 0 30px 20px 0;
+  margin: 0 40px 20px 0;
 }
 
 .logo-heading {
@@ -105,12 +107,33 @@ p {
 /*  text-align: right;
 */}
 
+.card,
+.nav-item {
+  transition:all 0.3s ease;
+}
 
+.logo-a {
+  transition:all 0.4s ease;
+}
+
+.grow-logo:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+} 
+
+.login:hover,
+.nav-item:hover {
+  color: #5A0914;
+  font-weight: bold;
+/*  background-color: #F71735;
+*/  border-radius: 10px;
+}
 
 /*/////MAIN/////*/
 
 main {
-  background-color: #C1B2B4;
+  background-color: #FFFFFF;
 }
 
 h3 {
@@ -128,14 +151,20 @@ h3 {
 }
 
 .card {
-  background-color: #FFFFFF;
+  background-color: #EDFDFB;
   border-radius: 5px;
-  border: 1px solid #293241;
-  box-shadow:  0px 0px 5px #E0FBFC, ix 0px 3px #ED7F63;
+  border: 1px solid #44070F;
+  box-shadow:  5px 4px 4px #45504B;
   margin: 5px 5px 15px 5px;
   min-width: 250px;
   position: relative;
-  width: 24%;
+  width: 23%;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 
@@ -150,7 +179,7 @@ h3 {
 
 .cover-icon {
   position: absolute;
-  font-size: 3rem;
+  font-size: 40px;
   color: #F4FAFF;
   top: 0;
   z-index: 2;
