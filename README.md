@@ -17,21 +17,23 @@ Turing School of Software and Design Mod 1 Project
 - CSS
 - JavaScript
 
-# Screen Grab of Static Comp Provided
+
+# Comp
+
+![Comp](/images/comp.jpg)
 
 
-![Comp] 
-(https://misskelly.github.com/kz-comp-challenge-I/images/comp.jpg)
+## My Project
+A few screenshots of the submitted product:
 
+### Laptop/Desktop
+![Full Size](/images/laptop.png)
 
+### Tablet View
+![Tablet](/images/tablet.png)
 
-# Screen Grab of the Site Created
-![Laptop] 
-(https://misskelly.github.com/kz-comp-challenge-I/images/laptop.png)
-![Tablet] 
-(https://misskelly.github.com/kz-comp-challenge-I/images/tablet.png)
-![Mobile view] 
-(https://misskelly.github.com/kz-comp-challenge-I/images/mobile.png)
+### Mobile View
+![Mobile](/images/mobile.png)
 
 
 # Credits
