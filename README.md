@@ -26,9 +26,12 @@ Turing School of Software and Design Mod 1 Project
 
 
 # Screen Grab of the Site Created
-![Comp] 
+![Laptop] 
 (https://misskelly.github.com/kz-comp-challenge-I/images/laptop.png)
-
+![Tablet] 
+(https://misskelly.github.com/kz-comp-challenge-I/images/tablet.png)
+![Mobile view] 
+(https://misskelly.github.com/kz-comp-challenge-I/images/mobile.png)
 
 
 # Credits
