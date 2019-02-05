@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Raleway', sans-serif;
   color: #000F08;
 }
@@ -145,6 +145,8 @@ p {
   border-radius: 10px;
   background-color: #284B63;
   box-shadow: 0 0 20px 20px #284B63;
+  color: #F4F9E9;
+
 }
 
 /*/////MAIN/////*/
@@ -220,7 +222,7 @@ h3 {
   top: 5px;
   z-index: 3;
   right: 1rem;
-  font-size: .7rem;
+  font-size: 14px;
   color: #F4F9E9;
   text-transform: uppercase;
 }
@@ -240,6 +242,15 @@ h3 {
   padding: 5px 10px 10px 10px;
 }
 
+.link {
+  height: 40px;
+  font-size: 14px;
+}
+.link:hover {
+   color: #284B63;
+   text-decoration: underline dotted;
+}
+
 h4 {
   height: 36px;
 }
@@ -254,7 +265,7 @@ h4 {
 
 
 .details {
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
   height: 80px;
   overflow: auto;
