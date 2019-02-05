@@ -2,20 +2,17 @@
 Turing School of Software and Design Mod 1 Project
  
 
-# Goals 
-- Creating well structured, semantic HTML
-- Creating clean, precise, and D.R.Y. ("Don't Repeat Yourself") CSS
+# Base Requirements
+- Basic static site setup with index.html and styles.css
+- Site must be responsive
+- Site must work across Firefox, Safari, Chrome
+- Developer must use normalize instead of reset file in CSS
+- Allowed to use flex-box for this project. However, DO NOT use grid
 
-# Tools
-
-- Sublime
-- DevTools on Google Chrome Canary
 
 # Languages
-
 - HTML
 - CSS
-- JavaScript
 
 
 # Comp
