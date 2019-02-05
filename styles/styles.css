@@ -40,8 +40,8 @@ p {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #D1D1D1;
-  border-bottom: 7px solid #F71735;
+  background-color: #B4B8AB;
+  border-bottom: 10px solid #FF4949;
 }
 
 .nav {
@@ -133,12 +133,23 @@ p {
 /*/////MAIN/////*/
 
 main {
-  background-color: #FFFFFF;
+  background-color: #2E1114;
 }
 
 h3 {
   font-size: 2rem;
-  padding: 20px;
+  padding: 40px 0 0 30px;
+  margin-bottom: 40px;
+  font-weight: normal;
+  color: #F4F9E9; 
+  border-bottom: solid 4px #FF4949;
+}
+
+.studies,
+.sci {
+  background-color: #FF4949;
+  font-weight: bold;
+  /*margin: 2px;*/
 }
 
 .gallery {
@@ -154,7 +165,7 @@ h3 {
   background-color: #EDFDFB;
   border-radius: 5px;
   border: 1px solid #44070F;
-  box-shadow:  5px 4px 4px #45504B;
+  box-shadow:  5px 4px 4px #284B63;
   margin: 5px 5px 15px 5px;
   min-width: 250px;
   position: relative;
@@ -180,7 +191,7 @@ h3 {
 .cover-icon {
   position: absolute;
   font-size: 40px;
-  color: #F4FAFF;
+  color: #F4F9E9;
   top: 0;
   z-index: 2;
   padding: .5rem 0 0 .5rem;
@@ -192,7 +203,7 @@ h3 {
   z-index: 3;
   right: 1rem;
   font-size: .7rem;
-  color: #F4FAFF;
+  color: #F4F9E9;
   text-transform: uppercase;
 }
 
@@ -201,7 +212,7 @@ h3 {
   z-index: 4;
   right: 15px;
   top: 30px;
-  color: #F4FAFF;
+  color: #F4F9E9;
   font-size: 2rem;
   line-height: .7rem;
 }
